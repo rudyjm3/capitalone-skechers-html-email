@@ -1,0 +1,20 @@
+Colors:
+
+bg_dark_blue #10253F
+mid_blue #0276B1
+bg_pale_blue #DEE9F2
+green #008000
+red #CC2427
+bg_grey #F7F7F7
+grey #646464
+
+Typograph:
+Main
+font-family: sans-serif;
+    font-size: 20px; *Titles
+    font-weight: bold;
+    line-height: 20px;
+
+Small / sub text
+font-size: 12px;
+    line-height: 18px;
