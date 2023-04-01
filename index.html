@@ -33,7 +33,7 @@
       padding-bottom: 60px;
    }
    .main {
-      background-color: #fff;
+      background-color: #f7f7f7;
       margin: 0 auto;
       max-width: 600px;
       border-spacing: 0;
@@ -41,7 +41,52 @@
       color: #171a1b;
    }
 
-
+   .main-content-bg {
+      background-color: #DEE9F2; 
+   }
+   .heading {
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin: auto 0;
+      margin-top: 20px;
+   }
+   .code-content {
+      font-weight: 900;
+   }
+   .call-to-action-card {
+      background-color: #fff;
+      border: 1px solid #bababa;
+      border-radius: 5px;
+      padding: 20px;
+   }
+   .sub-heading {
+         font-size: 1.2rem;
+         font-weight: 700;
+   }
+   .percent-content {
+      color: #008000;
+   }
+   .cta-btn {
+      width: 190px;
+      padding: 15px 0;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: 500;
+      background-color: #0276B1;
+      margin: 15px 0;
+      cursor: pointer;
+   }
+   .sub-script1 {
+      font-size: 0.7rem;
+      line-height: 1.5;
+   }
+   .sub-script2 {
+      font-size: 0.55rem;
+      font-weight: 500;
+   }
    /* Responsive Styling : BEGIN */
    /* DESK TOP */
   @media only screen and (max-width: 960px) {
@@ -168,10 +213,10 @@
 </head>
 
 
-<body style="background-color: grey;">
+<body style="background-color: #646464;">
 <!---- START OF HTML EMAIL ---->
    <center class="wrapper">
-      <table class="main" width="100%" border="0" cellspacing="0" cellpadding="0"> 
+      <table class="main" width="100%" border="0"cellspacing="0"cellpadding="0"> 
 <!-- LOGO SECTION --> 
          <tbody width="100%" align="center" style="background-color: #10253F;">
             <tr>
@@ -184,7 +229,72 @@
                <td height="8" style="background-color: #0276B1;"></td>
             </tr>  
          </tbody>
-                
+         <!-- START MAIN CONTENT -->
+         <!-- HEADER -->
+         <tr>
+            <td>
+               <table class="main-content-bg" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="padding:0 30px 0 30px;">
+                  <tbody align="center">
+                     <tr>
+                        <td>
+                           <p class="heading">Skechers Plus Friends & Family Event! Get 20% <br>
+                           OFF Your Order*</p>
+                           <p style="font-weight:700; font-size:14px;">Code: <span class="code-content">FRIENDS</span></p>
+                        </td>
+                     </tr>
+                     <!-- CARD CONTENT --> 
+                     <tr>
+                        <td>  
+                           <table class="call-to-action-card" width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                              <tbody align="center">
+                                 <tr>
+                                    <td>
+                                       <img src="images/header-image.png" width="100%" alt="Picture of Skechers Shoes" style="border-radius:5px;">
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <p class="sub-heading">Get <span class="percent-content">24%</span> back with Capital One Shopping!</p>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <img src="images/logo-skechers.png" alt="Skerchers logo">
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <button class="cta-btn">Activate Offer</button>
+                                    </td> 
+                                 </tr>
+                                 <tr>
+                                    <td>
+                                       <sub class="sub-script1">
+                                          Valid through 3/27. Exclusions apply* See Skechers site for details.
+                                          <br>
+                                          Shopping rewards are not eligible on the purchase or redemption of gift cards.
+                                       </sub>
+                                    </td>
+                                 </tr>
+                              </tbody>
+                              
+                           </table>
+                        </td>                        
+                     </tr>
+                     <tr>
+                        <td>
+                           <sub class="sub-script2">
+                              <a href="http://" target="_blank" rel="noopener noreferrer">Learn more</a>  about Capital One Shopping Rewards. <a href="http://" target="_blank" rel="noopener noreferrer">Terms</a> apply.
+                           </sub>
+                        </td>
+                     </tr>
+                          
+
+                  </tbody>
+               </table> 
+            </td>
+         </tr>
+               
          
             
       </table>
