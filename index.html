@@ -87,6 +87,25 @@
       font-size: 0.55rem;
       font-weight: 500;
    }
+
+   .card-footer {
+      background-color: #10253F;
+      color: #fff;
+      text-align: center;
+   }
+   .underline-content {
+      border-bottom: 1.8px solid #CC2427;
+      padding-bottom: 8px;
+   }
+   .card-footer-btn {
+      border: none;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #0276B1;
+      width: 200px;
+      padding: 10px;
+      margin-bottom: 25px;
+   }
    /* Responsive Styling : BEGIN */
    /* DESK TOP */
   @media only screen and (max-width: 960px) {
@@ -282,16 +301,35 @@
                         </td>                        
                      </tr>
                      <tr>
-                        <td>
+                        <td style="padding-bottom: 15px;">
                            <sub class="sub-script2">
                               <a href="http://" target="_blank" rel="noopener noreferrer">Learn more</a>  about Capital One Shopping Rewards. <a href="http://" target="_blank" rel="noopener noreferrer">Terms</a> apply.
                            </sub>
                         </td>
-                     </tr>
-                          
-
+                     </tr>               
                   </tbody>
                </table> 
+            </td>
+         </tr>
+         <!-- CARD FOOTER CONTENT -->
+         <tr>
+            <td>
+               <table class="card-footer" width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                  <tbody>
+                     <tr>
+                        <td>
+                           <p style="font-size:1.2rem; font-weight:700; color:#fff; margin-bottom:0;">Savings Don't Stop Here!</p>
+                           <p style="font-size:0.9rem; font-weight:500; line-height:1.4; margin-bottom:20px;">We're reinventing online shopping and <br>
+                           <span class="underline-content" >it's kinda genius.</span></p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>
+                           <button class="card-footer-btn">Discover More Deals</button>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
             </td>
          </tr>
                
